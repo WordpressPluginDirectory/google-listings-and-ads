@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63
+class ComposerStaticInit6161b4743ae62a4d4deb7213c0848fd8
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -92,7 +92,6 @@ class ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63
             'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\Google\\' => 58,
             'Automattic\\WooCommerce\\GoogleListingsAndAds\\Util\\' => 49,
             'Automattic\\WooCommerce\\GoogleListingsAndAds\\' => 44,
-            'Automattic\\Jetpack\\Autoloader\\' => 30,
         ),
     );
 
@@ -290,62 +289,10 @@ class ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
-        'Automattic\\Jetpack\\Autoloader\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src',
-        ),
     );
 
     public static $classMap = array (
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
-        'Automattic\\Jetpack\\A8c_Mc_Stats' => __DIR__ . '/..' . '/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php',
-        'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => __DIR__ . '/..' . '/automattic/jetpack-admin-ui/src/class-admin-menu.php',
-        'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php',
-        'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadGenerator.php',
-        'Automattic\\Jetpack\\Autoloader\\AutoloadProcessor' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadProcessor.php',
-        'Automattic\\Jetpack\\Autoloader\\CustomAutoloaderPlugin' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php',
-        'Automattic\\Jetpack\\Autoloader\\ManifestGenerator' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/ManifestGenerator.php',
-        'Automattic\\Jetpack\\Config' => __DIR__ . '/..' . '/automattic/jetpack-config/src/class-config.php',
-        'Automattic\\Jetpack\\Connection\\Client' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-client.php',
-        'Automattic\\Jetpack\\Connection\\Connection_Notice' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-connection-notice.php',
-        'Automattic\\Jetpack\\Connection\\Error_Handler' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-error-handler.php',
-        'Automattic\\Jetpack\\Connection\\Initial_State' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-initial-state.php',
-        'Automattic\\Jetpack\\Connection\\Manager' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-manager.php',
-        'Automattic\\Jetpack\\Connection\\Manager_Interface' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/interface-manager.php',
-        'Automattic\\Jetpack\\Connection\\Nonce_Handler' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-nonce-handler.php',
-        'Automattic\\Jetpack\\Connection\\Package_Version' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-package-version.php',
-        'Automattic\\Jetpack\\Connection\\Package_Version_Tracker' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-package-version-tracker.php',
-        'Automattic\\Jetpack\\Connection\\Plugin' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-plugin.php',
-        'Automattic\\Jetpack\\Connection\\Plugin_Storage' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-plugin-storage.php',
-        'Automattic\\Jetpack\\Connection\\REST_Connector' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-rest-connector.php',
-        'Automattic\\Jetpack\\Connection\\Rest_Authentication' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-rest-authentication.php',
-        'Automattic\\Jetpack\\Connection\\Secrets' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-secrets.php',
-        'Automattic\\Jetpack\\Connection\\Server_Sandbox' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-server-sandbox.php',
-        'Automattic\\Jetpack\\Connection\\Tokens' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-tokens.php',
-        'Automattic\\Jetpack\\Connection\\Tokens_Locks' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-tokens-locks.php',
-        'Automattic\\Jetpack\\Connection\\Urls' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-urls.php',
-        'Automattic\\Jetpack\\Connection\\Utils' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-utils.php',
-        'Automattic\\Jetpack\\Connection\\Webhooks' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-webhooks.php',
-        'Automattic\\Jetpack\\Connection\\Webhooks\\Authorize_Redirect' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/webhooks/class-authorize-redirect.php',
-        'Automattic\\Jetpack\\Connection\\XMLRPC_Async_Call' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-xmlrpc-async-call.php',
-        'Automattic\\Jetpack\\Connection\\XMLRPC_Connector' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-xmlrpc-connector.php',
-        'Automattic\\Jetpack\\Constants' => __DIR__ . '/..' . '/automattic/jetpack-constants/src/class-constants.php',
-        'Automattic\\Jetpack\\CookieState' => __DIR__ . '/..' . '/automattic/jetpack-status/src/class-cookiestate.php',
-        'Automattic\\Jetpack\\Errors' => __DIR__ . '/..' . '/automattic/jetpack-status/src/class-errors.php',
-        'Automattic\\Jetpack\\Files' => __DIR__ . '/..' . '/automattic/jetpack-status/src/class-files.php',
-        'Automattic\\Jetpack\\Heartbeat' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-heartbeat.php',
-        'Automattic\\Jetpack\\Modules' => __DIR__ . '/..' . '/automattic/jetpack-status/src/class-modules.php',
-        'Automattic\\Jetpack\\Partner' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-partner.php',
-        'Automattic\\Jetpack\\Partner_Coupon' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-partner-coupon.php',
-        'Automattic\\Jetpack\\Paths' => __DIR__ . '/..' . '/automattic/jetpack-status/src/class-paths.php',
-        'Automattic\\Jetpack\\Redirect' => __DIR__ . '/..' . '/automattic/jetpack-redirect/src/class-redirect.php',
-        'Automattic\\Jetpack\\Roles' => __DIR__ . '/..' . '/automattic/jetpack-roles/src/class-roles.php',
-        'Automattic\\Jetpack\\Status' => __DIR__ . '/..' . '/automattic/jetpack-status/src/class-status.php',
-        'Automattic\\Jetpack\\Status\\Cache' => __DIR__ . '/..' . '/automattic/jetpack-status/src/class-cache.php',
-        'Automattic\\Jetpack\\Status\\Host' => __DIR__ . '/..' . '/automattic/jetpack-status/src/class-host.php',
-        'Automattic\\Jetpack\\Status\\Visitor' => __DIR__ . '/..' . '/automattic/jetpack-status/src/class-visitor.php',
-        'Automattic\\Jetpack\\Terms_Of_Service' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-terms-of-service.php',
-        'Automattic\\Jetpack\\Tracking' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-tracking.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Ads' => __DIR__ . '/../..' . '/src/API/Google/Ads.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\AdsAsset' => __DIR__ . '/../..' . '/src/API/Google/AdsAsset.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\AdsAssetGroup' => __DIR__ . '/../..' . '/src/API/Google/AdsAssetGroup.php',
@@ -1520,16 +1467,26 @@ class ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\GuzzleHttp\\RetryMiddleware' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/RetryMiddleware.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\GuzzleHttp\\TransferStats' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/TransferStats.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\GuzzleHttp\\Utils' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Utils.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\ArgumentInterface' => __DIR__ . '/..' . '/league/container/src/Argument/ArgumentInterface.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\ArgumentResolverInterface' => __DIR__ . '/..' . '/league/container/src/Argument/ArgumentResolverInterface.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\ArgumentResolverTrait' => __DIR__ . '/..' . '/league/container/src/Argument/ArgumentResolverTrait.php',
-        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\ClassName' => __DIR__ . '/..' . '/league/container/src/Argument/ClassName.php',
-        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\ClassNameInterface' => __DIR__ . '/..' . '/league/container/src/Argument/ClassNameInterface.php',
-        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\ClassNameWithOptionalValue' => __DIR__ . '/..' . '/league/container/src/Argument/ClassNameWithOptionalValue.php',
-        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\RawArgument' => __DIR__ . '/..' . '/league/container/src/Argument/RawArgument.php',
-        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\RawArgumentInterface' => __DIR__ . '/..' . '/league/container/src/Argument/RawArgumentInterface.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\DefaultValueArgument' => __DIR__ . '/..' . '/league/container/src/Argument/DefaultValueArgument.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\DefaultValueInterface' => __DIR__ . '/..' . '/league/container/src/Argument/DefaultValueInterface.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\LiteralArgument' => __DIR__ . '/..' . '/league/container/src/Argument/LiteralArgument.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\LiteralArgumentInterface' => __DIR__ . '/..' . '/league/container/src/Argument/LiteralArgumentInterface.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\Literal\\ArrayArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/ArrayArgument.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\Literal\\BooleanArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/BooleanArgument.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\Literal\\CallableArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/CallableArgument.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\Literal\\FloatArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/FloatArgument.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\Literal\\IntegerArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/IntegerArgument.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\Literal\\ObjectArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/ObjectArgument.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\Literal\\StringArgument' => __DIR__ . '/..' . '/league/container/src/Argument/Literal/StringArgument.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\ResolvableArgument' => __DIR__ . '/..' . '/league/container/src/Argument/ResolvableArgument.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Argument\\ResolvableArgumentInterface' => __DIR__ . '/..' . '/league/container/src/Argument/ResolvableArgumentInterface.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Container' => __DIR__ . '/..' . '/league/container/src/Container.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\ContainerAwareInterface' => __DIR__ . '/..' . '/league/container/src/ContainerAwareInterface.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\ContainerAwareTrait' => __DIR__ . '/..' . '/league/container/src/ContainerAwareTrait.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\DefinitionContainerInterface' => __DIR__ . '/..' . '/league/container/src/DefinitionContainerInterface.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Definition\\Definition' => __DIR__ . '/..' . '/league/container/src/Definition/Definition.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Definition\\DefinitionAggregate' => __DIR__ . '/..' . '/league/container/src/Definition/DefinitionAggregate.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\League\\Container\\Definition\\DefinitionAggregateInterface' => __DIR__ . '/..' . '/league/container/src/Definition/DefinitionAggregateInterface.php',
@@ -1793,6 +1750,7 @@ class ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63
         'GPBMetadata\\Google\\Ads\\GoogleAds\\V16\\Errors\\UrlFieldError' => __DIR__ . '/..' . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V16/Errors/UrlFieldError.php',
         'GPBMetadata\\Google\\Ads\\GoogleAds\\V16\\Errors\\UserDataError' => __DIR__ . '/..' . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V16/Errors/UserDataError.php',
         'GPBMetadata\\Google\\Ads\\GoogleAds\\V16\\Errors\\UserListError' => __DIR__ . '/..' . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V16/Errors/UserListError.php',
+        'GPBMetadata\\Google\\Ads\\GoogleAds\\V16\\Errors\\VideoCampaignError' => __DIR__ . '/..' . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V16/Errors/VideoCampaignError.php',
         'GPBMetadata\\Google\\Ads\\GoogleAds\\V16\\Errors\\YoutubeVideoRegistrationError' => __DIR__ . '/..' . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V16/Errors/YoutubeVideoRegistrationError.php',
         'GPBMetadata\\Google\\Ads\\GoogleAds\\V16\\Resources\\AccountLink' => __DIR__ . '/..' . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V16/Resources/AccountLink.php',
         'GPBMetadata\\Google\\Ads\\GoogleAds\\V16\\Resources\\Ad' => __DIR__ . '/..' . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V16/Resources/Ad.php',
@@ -2301,6 +2259,8 @@ class ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63
         'Google\\Ads\\GoogleAds\\V16\\Enums\\ListingGroupFilterListingSourceEnum\\ListingGroupFilterListingSource' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Enums/ListingGroupFilterListingSourceEnum/ListingGroupFilterListingSource.php',
         'Google\\Ads\\GoogleAds\\V16\\Enums\\ListingGroupFilterTypeEnum' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Enums/ListingGroupFilterTypeEnum.php',
         'Google\\Ads\\GoogleAds\\V16\\Enums\\ListingGroupFilterTypeEnum\\ListingGroupFilterType' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Enums/ListingGroupFilterTypeEnum/ListingGroupFilterType.php',
+        'Google\\Ads\\GoogleAds\\V16\\Enums\\LocalServicesCreditStateEnum' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Enums/LocalServicesCreditStateEnum.php',
+        'Google\\Ads\\GoogleAds\\V16\\Enums\\LocalServicesCreditStateEnum\\CreditState' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Enums/LocalServicesCreditStateEnum/CreditState.php',
         'Google\\Ads\\GoogleAds\\V16\\Enums\\LocalServicesLeadConversationTypeEnum' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Enums/LocalServicesLeadConversationTypeEnum.php',
         'Google\\Ads\\GoogleAds\\V16\\Enums\\LocalServicesLeadConversationTypeEnum\\ConversationType' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Enums/LocalServicesLeadConversationTypeEnum/ConversationType.php',
         'Google\\Ads\\GoogleAds\\V16\\Enums\\LocalServicesLeadStatusEnum\\LeadStatus' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Enums/LocalServicesLeadStatusEnum/LeadStatus.php',
@@ -2631,6 +2591,8 @@ class ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63
         'Google\\Ads\\GoogleAds\\V16\\Errors\\UserDataErrorEnum\\UserDataError' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Errors/UserDataErrorEnum/UserDataError.php',
         'Google\\Ads\\GoogleAds\\V16\\Errors\\UserListErrorEnum' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Errors/UserListErrorEnum.php',
         'Google\\Ads\\GoogleAds\\V16\\Errors\\UserListErrorEnum\\UserListError' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Errors/UserListErrorEnum/UserListError.php',
+        'Google\\Ads\\GoogleAds\\V16\\Errors\\VideoCampaignErrorEnum' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Errors/VideoCampaignErrorEnum.php',
+        'Google\\Ads\\GoogleAds\\V16\\Errors\\VideoCampaignErrorEnum\\VideoCampaignError' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Errors/VideoCampaignErrorEnum/VideoCampaignError.php',
         'Google\\Ads\\GoogleAds\\V16\\Errors\\YoutubeVideoRegistrationErrorEnum' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Errors/YoutubeVideoRegistrationErrorEnum.php',
         'Google\\Ads\\GoogleAds\\V16\\Errors\\YoutubeVideoRegistrationErrorEnum\\YoutubeVideoRegistrationError' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Errors/YoutubeVideoRegistrationErrorEnum/YoutubeVideoRegistrationError.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\AccessibleBiddingStrategy\\MaximizeConversionValue' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/AccessibleBiddingStrategy/MaximizeConversionValue.php',
@@ -2706,6 +2668,7 @@ class ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63
         'Google\\Ads\\GoogleAds\\V16\\Resources\\ConversionValueRule\\ValueRuleAudienceCondition' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/ConversionValueRule/ValueRuleAudienceCondition.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\ConversionValueRule\\ValueRuleDeviceCondition' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/ConversionValueRule/ValueRuleDeviceCondition.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\ConversionValueRule\\ValueRuleGeoLocationCondition' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/ConversionValueRule/ValueRuleGeoLocationCondition.php',
+        'Google\\Ads\\GoogleAds\\V16\\Resources\\CreditDetails' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CreditDetails.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomAudienceMember' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomAudienceMember.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomInterestMember' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomInterestMember.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomLeadFormSubmissionField' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomLeadFormSubmissionField.php',
@@ -2714,11 +2677,13 @@ class ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63
         'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomerAgreementSetting' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomerAgreementSetting.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomerLifecycleGoal\\LifecycleGoalCustomerDefinitionSettings' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomerLifecycleGoal/LifecycleGoalCustomerDefinitionSettings.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomerSkAdNetworkConversionValueSchema\\SkAdNetworkConversionValueSchema' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema.php',
+        'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomerSkAdNetworkConversionValueSchema\\SkAdNetworkConversionValueSchema\\CoarseGrainedConversionValueMappings' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/CoarseGrainedConversionValueMappings.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomerSkAdNetworkConversionValueSchema\\SkAdNetworkConversionValueSchema\\ConversionValueMapping' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/ConversionValueMapping.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomerSkAdNetworkConversionValueSchema\\SkAdNetworkConversionValueSchema\\Event' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/Event.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomerSkAdNetworkConversionValueSchema\\SkAdNetworkConversionValueSchema\\Event\\EventOccurrenceRange' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/Event/EventOccurrenceRange.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomerSkAdNetworkConversionValueSchema\\SkAdNetworkConversionValueSchema\\Event\\RevenueRange' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/Event/RevenueRange.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomerSkAdNetworkConversionValueSchema\\SkAdNetworkConversionValueSchema\\FineGrainedConversionValueMappings' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/FineGrainedConversionValueMappings.php',
+        'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomerSkAdNetworkConversionValueSchema\\SkAdNetworkConversionValueSchema\\PostbackMapping' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/PostbackMapping.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\CustomerUserAccess' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/CustomerUserAccess.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\DataPartnerIdentifier' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/DataPartnerIdentifier.php',
         'Google\\Ads\\GoogleAds\\V16\\Resources\\ExtensionFeedItem' => __DIR__ . '/..' . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V16/Resources/ExtensionFeedItem.php',
@@ -3699,13 +3664,6 @@ class ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63
         'Google_Task_Retryable' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
         'Google_Task_Runner' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
         'Google_Utils_UriTemplate' => __DIR__ . '/..' . '/google/apiclient/src/aliases.php',
-        'Jetpack_IXR_Client' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-client.php',
-        'Jetpack_IXR_ClientMulticall' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php',
-        'Jetpack_Options' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-options.php',
-        'Jetpack_Signature' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-signature.php',
-        'Jetpack_Tracks_Client' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-tracks-client.php',
-        'Jetpack_Tracks_Event' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-tracks-event.php',
-        'Jetpack_XMLRPC_Server' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
         'Monolog\\Attribute\\AsMonologProcessor' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Attribute/AsMonologProcessor.php',
         'Monolog\\DateTimeImmutable' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/DateTimeImmutable.php',
@@ -4239,8 +4197,10 @@ class ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63
         'phpseclib3\\Exception\\FileNotFoundException' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Exception/FileNotFoundException.php',
         'phpseclib3\\Exception\\InconsistentSetupException' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Exception/InconsistentSetupException.php',
         'phpseclib3\\Exception\\InsufficientSetupException' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Exception/InsufficientSetupException.php',
+        'phpseclib3\\Exception\\InvalidPacketLengthException' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Exception/InvalidPacketLengthException.php',
         'phpseclib3\\Exception\\NoKeyLoadedException' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Exception/NoKeyLoadedException.php',
         'phpseclib3\\Exception\\NoSupportedAlgorithmsException' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Exception/NoSupportedAlgorithmsException.php',
+        'phpseclib3\\Exception\\TimeoutException' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Exception/TimeoutException.php',
         'phpseclib3\\Exception\\UnableToConnectException' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Exception/UnableToConnectException.php',
         'phpseclib3\\Exception\\UnsupportedAlgorithmException' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Exception/UnsupportedAlgorithmException.php',
         'phpseclib3\\Exception\\UnsupportedCurveException' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Exception/UnsupportedCurveException.php',
@@ -4416,9 +4376,9 @@ class ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitdc1c866ff5a5faf503e7f4899f251f63::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6161b4743ae62a4d4deb7213c0848fd8::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6161b4743ae62a4d4deb7213c0848fd8::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit6161b4743ae62a4d4deb7213c0848fd8::$classMap;
 
         }, null, ClassLoader::class);
     }
