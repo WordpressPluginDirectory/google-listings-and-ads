@@ -2,10 +2,10 @@
 Contributors: automattic, google, woocommerce
 Tags: woocommerce, google, product feed, ads, listings
 Requires at least: 6.6
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.4
 Requires PHP Architecture: 64 Bits
-Stable tag: 3.6.2
+Stable tag: 3.8.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -52,7 +52,7 @@ Once you’re running Google Ads campaigns, the Google tag feature in the extens
 = Minimum Requirements =
 
 * WordPress 6.6 or greater
-* WooCommerce 9.7 or greater
+* WooCommerce 10.7 or greater
 * PHP version 7.4 or greater
 * PHP Architecture 64 bits
 * MySQL version 5.6 or greater
@@ -140,32 +140,24 @@ To allow your products to appear in all relevant locations, make sure you’ve c
 
 == Changelog ==
 
-= 3.6.2 - 2026-04-27 =
-* Dev - Bump WooCommerce "tested up to" version 10.7.
-* Dev - Remove API Pull sync status rows from the Connection Test page.
-* Fix - Disconnect modal now shows Google Ads-specific copy and confirmation text when disconnecting only the Google Ads account, instead of always falling back to the "all accounts" variant.
-* Fix - Improve scheduling for job that updates non-EU campaigns.
-* Fix - Improved performance of the expiring products query for large catalogs.
-* Fix - Only schedule UpdateEuPoliticalCampaigns jobs with an Ads connection.
-* Fix - Unschedule all Action Scheduler jobs when the plugin is deactivated to prevent orphaned recurring tasks from accumulating failure logs.
-* Fix - Update gmc_merchant_id in YouTube Shopping reports.
-* Fix - Updated caniuse-lite browserslist database.
+= 3.8.0 - 2026-07-21 =
+* Break - Migrate to the Merchant API from the Content Shopping API.
+* Dev - Bump WooCommerce "tested up to" version 10.9.
+* Dev - Bump WordPress "tested up to" version 7.0.
+* Fix - Prevent adblockers from blocking auto-generated images in the preview.
+* Tweak - Enable brand guidelines on non-shopping campaigns.
+* Tweak - Remove beta block-based product editor integration ahead of its retirement in WooCommerce 11.0.
 
-= 3.6.1 - 2026-03-31 =
-* Add - EU political ads declaration modal for compliance with Google's political advertising requirements.
-* Dev - Refactor YouTube card E2E tests.
-* Fix - Cache GAQL query for highest spend campaign.
-* Fix - Remove legacy conversion event.
+= 3.7.3 - 2026-07-08 =
+* Add - Added update notification when plugin version 3.8.0 is available
 
-= 3.6.0 - 2026-03-16 =
-* Add - Generative AI for assets.
-* Add - YouTube shopping support.
-* Fix – Rename the logo svg file.
-* Fix - Update Google Ads API to v22.
-* Fix - Duplicated values in the report comparison filters.
-* Fix - Conversion events use product variation ID in purchase events.
-* Fix - Resolved fatal error in Channel Visibility when creating coupons.
-* Fix - Show user error message when Brand Guidelines are enabled.
-* Update - Update Google Ads API to v22.
+= 3.7.2 - 2026-06-29 =
+* Add - Added an option to connect a Merchant Center account when a service-based user adds physical products.
+* Dev - Remove $_GET parameter overrides in Options::get_ads_id() and Options::get_merchant_id().
+* Fix - Align the main tab navigation's keyboard-focus indicator with the WordPress core style and stop showing a focus indicator on mouse press.
+* Fix - Ensure incomplete connection states show as disconnected.
+* Fix - Fix flaky E2E tests for onboarding step-3 campaign flow.
+* Fix - Fix webpack commons chunk misconfiguration causing disproportionate bundle growth; add dedicated bundlewatch entries for all page chunks with realistic size limits.
+* Fix - Resolved console log errors when selecting AI generated images in campaigns.
 
 [See changelog for all versions](https://raw.githubusercontent.com/woocommerce/google-listings-and-ads/trunk/changelog.txt).
